@@ -21,7 +21,7 @@
             bindings = <
 &lt 3 ESCAPE  &kp Q  &kp W           &kp F               &kp P           &kp G          &kp J           &kp L            &kp U                    &kp Z             &kp PLUS   &lt 3 CAPSLOCK
 &kp TAB       &kp A  &kp R           &kp S               &kp T           &kp D          &kp H           &kp N            &kp E                    &kp I             &kp O      &kp LS(SLASH)
-&none         &kp Y  &mt LEFT_ALT X  &mt LEFT_CONTROL C  &mt LEFT_WIN V  &kp B          &kp K           &mt RIGHT_WIN M  &mt RIGHT_CONTROL COMMA  &mt LEFT_ALT DOT  &kp SLASH  &none
+&kp DELETE    &kp Y  &mt LEFT_ALT X  &mt LEFT_CONTROL C  &mt LEFT_WIN V  &kp B          &kp K           &mt RIGHT_WIN M  &mt RIGHT_CONTROL COMMA  &mt LEFT_ALT DOT  &kp SLASH  &none
                                      &mo 2               &kp SPACE       &kp BACKSPACE  &kp LEFT_SHIFT  &kp RETURN       &mo 1
             >;
         };
