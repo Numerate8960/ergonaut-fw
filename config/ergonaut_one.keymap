@@ -28,9 +28,9 @@
 
         symbols {
             bindings = <
-&trans  &kp RA(E)              &kp DOLLAR     &kp RA(MINUS)      &kp LS(N7)        &kp LS(NUMBER_6)     &kp LS(RIGHT_BRACKET)  &kp RA(N7)  &kp RA(N8)  &kp RA(Q)        &kp LS(EQUAL)        &trans
-&trans  &kp LS(COMMA)          &kp FSLH       &kp EXCLAMATION    &kp LS(NUMBER_0)  &kp RA(NON_US_BSLH)  &kp FSLH               &kp LS(N8)  &kp LS(N9)  &kp NON_US_BSLH  &kp LS(NON_US_BSLH)  &trans
-&trans  &kp RA(RIGHT_BRACKET)  &kp BACKSLASH  &kp LS(BACKSLASH)  &kp LS(N2)        &kp PERCENT          &kp GRAVE              &kp RA(N8)  &kp RA(N9)  &kp COLON        &kp EQUAL            &trans
+&trans  &kp RA(E)              &kp DOLLAR     &kp RA(MINUS)      &kp LS(N7)        &kp LS(NUMBER_6)     &kp LS(RIGHT_BRACKET)  &kp RA(N7)  &kp RA(N0)  &kp RA(Q)        &kp LS(EQUAL)        &trans
+&trans  &kp LS(COMMA)          &kp MINUS      &kp EXCLAMATION    &kp LS(NUMBER_0)  &kp RA(NON_US_BSLH)  &kp FSLH               &kp LS(N8)  &kp LS(N9)  &kp NON_US_BSLH  &kp LS(NON_US_BSLH)  &trans
+&trans  &kp RA(RIGHT_BRACKET)  &kp BACKSLASH  &kp LS(BACKSLASH)  &kp LS(N2)        &kp PERCENT          &kp GRAVE              &kp RA(N8)  &kp RA(N9)  &kp LS(PERIOD)   &kp EQUAL            &trans
                                               &trans             &trans            &trans               &trans                 &trans      &trans
             >;
         };
