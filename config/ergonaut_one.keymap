@@ -28,7 +28,7 @@
             bindings = <
 &mt LGUI ESCAPE  &kp Q  &kp W  &kp F  &kp P      &kp G          &kp J           &kp L       &kp U      &kp Y    &kp PLUS   &kp CAPSLOCK
 &kp TAB          &kp A  &kp R  &kp S  &kp T      &kp D          &kp H           &kp N       &kp E      &kp I    &kp O      &kp UNDERSCORE
-&none            &kp Z  &kp X  &kp C  &kp V      &kp B          &kp K           &kp M       &kp COMMA  &kp DOT  &kp MINUS  &none
+&mo 1            &kp Z  &kp X  &kp C  &kp V      &kp B          &kp K           &kp M       &kp COMMA  &kp DOT  &kp MINUS  &mo 2
                                &mo 2  &kp SPACE  &kp BACKSPACE  &kp LEFT_SHIFT  &kp RETURN  &mo 1
             >;
         };
@@ -53,9 +53,9 @@
 
         adjust {
             bindings = <
-&bootloader  &none         &none         &none         &none         &none         &none         &none         &none         &none         &none         &bootloader
+&bootloader  &sys_reset    &none         &none         &none         &none         &none         &none         &none         &none         &sys_reset    &bootloader
 &bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR
-&sys_reset   &none         &none         &none         &none         &none         &none         &none         &none         &none         &none         &sys_reset
+&none        &none         &none         &none         &none         &none         &none         &none         &none         &none         &none         &none
                                          &trans        &none         &trans        &none         &trans        &trans
             >;
         };
