@@ -27,10 +27,10 @@
 
         colemak {
             bindings = <
-&lt 3 ESCAPE  &kp Q  &kp W           &kp F               &kp P           &kp G          &kp J           &kp L            &kp U                    &kp Z             &kp PLUS   &lt 3 CAPSLOCK
-&kp TAB       &kp A  &kp R           &kp S               &kp T           &kp D          &kp H           &kp N            &kp E                    &kp I             &kp O      &kp LS(SLASH)
-&kp DELETE    &kp Y  &mt LEFT_ALT X  &mt LEFT_CONTROL C  &mt LEFT_WIN V  &kp B          &kp K           &mt RIGHT_WIN M  &mt RIGHT_CONTROL COMMA  &mt LEFT_ALT DOT  &kp SLASH  &none
-                                     &mo 2               &kp SPACE       &kp BACKSPACE  &kp LEFT_SHIFT  &kp RETURN       &mo 1
+&lt 4 ESCAPE  &kp Q    &kp W           &kp F               &kp P           &kp G          &kp J           &kp L            &kp U                    &kp Z             &kp PLUS     &lt 4 CAPSLOCK
+&kp TAB       &kp A    &kp R           &kp S               &kp T           &kp D          &kp H           &kp N            &kp E                    &kp I             &kp O        &kp LS(SLASH)
+&kp DELETE    &lt 3 Y  &mt LEFT_ALT X  &mt LEFT_CONTROL C  &mt LEFT_WIN V  &kp B          &kp K           &mt RIGHT_WIN M  &mt RIGHT_CONTROL COMMA  &mt LEFT_ALT DOT  &lt 3 SLASH  &none
+                                       &mo 2               &kp SPACE       &kp BACKSPACE  &kp LEFT_SHIFT  &kp RETURN       &mo 1
             >;
         };
 
@@ -49,6 +49,15 @@
 &trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0   &kp F12
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans
                         &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        nav {
+            bindings = <
+&none    &kp C_BRIGHTNESS_INC  &kp C_PREV         &kp C_PLAY_PAUSE  &kp C_NEXT       &kp C_STOP     &kp PG_UP  &kp H             &kp J     &kp K     &kp L      &none
+&none    &kp C_BRIGHTNESS_DEC  &kp C_VOLUME_DOWN  &kp K_MUTE        &kp C_VOLUME_UP  &kp C_SLEEP    &kp HOME   &kp LEFT          &kp DOWN  &kp UP    &kp RIGHT  &kp END
+&kp INS  &trans                &trans             &trans            &trans           &kp C_AL_LOCK  &kp PG_DN  &kp SINGLE_QUOTE  &kp LBKT  &kp SEMI  &kp MINUS  &none
+                                                  &trans            &trans           &trans         &trans     &trans            &trans
             >;
         };
 
